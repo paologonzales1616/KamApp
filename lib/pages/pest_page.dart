@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:kamapp/pages/info_page.dart';
 import 'package:kamapp/pages/info_pest_page.dart';
 
 class PestPage extends StatelessWidget {
@@ -47,7 +46,7 @@ class PestPage extends StatelessWidget {
                 onTap: () => Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => InfoPage(
+                    builder: (context) => InfoPestPage(
                       index: 1,
                     ),
                   ),
@@ -65,7 +64,7 @@ class PestPage extends StatelessWidget {
                 onTap: () => Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => InfoPage(
+                    builder: (context) => InfoPestPage(
                       index: 2,
                     ),
                   ),
@@ -83,7 +82,7 @@ class PestPage extends StatelessWidget {
                 onTap: () => Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => InfoPage(
+                    builder: (context) => InfoPestPage(
                       index: 3,
                     ),
                   ),
@@ -101,7 +100,7 @@ class PestPage extends StatelessWidget {
                 onTap: () => Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => InfoPage(
+                    builder: (context) => InfoPestPage(
                       index: 4,
                     ),
                   ),
